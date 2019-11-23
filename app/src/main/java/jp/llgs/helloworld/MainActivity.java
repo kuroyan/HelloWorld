@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //EditText input = findViewById(R.id.eｔName);
         //toastMessage = input.getText().toString();
         // 画像を使ったトーストをやりたい
+        // ここがコミット＆pushできていないが
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
