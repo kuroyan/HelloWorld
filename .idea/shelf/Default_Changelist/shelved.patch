@@ -1,0 +1,23 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\n    <string name=\"app_name\">HelloWorld</string>\n    <string name=\"tv_msg\">名前を入れて</string>\n    <string name=\"bt_clk\">表示</string>\n    <string name=\"bt_clr\">クリア</string>\n    <string name=\"button\">push</string>\n</resources>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision ad8f18e7ddab911c26d66015ea9bfab7e1031b48)
++++ app/src/main/res/values/strings.xml	(date 1574504632000)
+@@ -1,7 +1,8 @@
+ <resources>
+-    <string name="app_name">HelloWorld</string>
+-    <string name="tv_msg">名前を入れて</string>
+-    <string name="bt_clk">表示</string>
+-    <string name="bt_clr">クリア</string>
+-    <string name="button">push</string>
++<string name="app_name">HelloWorld</string>
++<string name="tv_msg">名前を入れて</string>
++<string name="bt_clk">表示</string>
++<string name="bt_clr">クリア</string>
++<string name="button">push</string>
++<string name="abcd">abcd</string>
+ </resources>

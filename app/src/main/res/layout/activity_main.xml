@@ -32,7 +32,7 @@
 
     <Button
         android:id="@+id/btclear"
-        android:layout_width="125dp"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:text="@string/bt_clr" />
 

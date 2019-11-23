@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
 
-        toastMessage ="本日は勤務表提出日です！";
+        toastMessage ="勤務表提出日です！";
 
         toastMake(toastMessage, 0, -200);
 
