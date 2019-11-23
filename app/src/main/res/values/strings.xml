@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="tv_msg">名前を入れて</string>
+    <string name="bt_clk">表示</string>
+    <string name="bt_clr">クリア</string>
+    <string name="button">push</string>
+</resources>

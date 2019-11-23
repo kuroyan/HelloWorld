@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1A9BA"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLabelInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:text="@string/tv_msg"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/eｔName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btClick"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_clk" />
+
+    <Button
+        android:id="@+id/btclear"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_clr" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="" />
+
+</LinearLayout>
