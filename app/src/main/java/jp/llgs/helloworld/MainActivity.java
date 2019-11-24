@@ -7,6 +7,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toastMake(toastMessage, 0, 200);
+                toastMake(toastMessage, 0, 10);
             }
         });
 
@@ -58,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
             EditText input = findViewById(R.id.eｔName);
             TextView output= findViewById(R.id.tvOutput);
 
+            ImageView imgV = findViewById(R.id.imageView);
+            imgV.setAlpha(0.9f);
+
+            //ImageView imgV =  (ImageView)findViewById(R.id.imageView);
+            //imgV.setAlpha(0.5f);
+
             int id = view.getId();
 
             switch(id){
@@ -66,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                     output.setText(inputStr + "さん、こんにちは！");
                     break;
                 case R.id.btclear:
+                    imgV.setAlpha(0.2f);
                     input.setText("");
                     output.setText("");
                     break;
